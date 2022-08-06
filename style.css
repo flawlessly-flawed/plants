@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Lora&family=Quicksand:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    overflow-x: hidden;
+  
+   
+  }
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    color: gray;
+    box-sizing: border-box;
+    border-style: hidden;
+    border-color: brown;
+    font-family: Quicksand;
+font-size: 11px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: -0.31476864218711853px;
+text-align: left;
+
+}
+
+.navbar a{
+    color: black;
+}
+
+.top-icons i{
+    padding: 0.2rem;
+    color: lightgray;
+    
+}
+
+.section-2-left{
+    margin-left: 30px;
+    
+    
+}
+
+.best{
+    font-family: Belleza;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: -0.35486114025115967px;
+    text-align: left;
+    width: 25rem;
+    
+
+}
+
+.shop-now{
+    padding: 40px;
+    margin-top: 45px;
+    border: 15px;
+    color: white;
+    background-color: black;
+    padding: 15px 32px;
+    border-radius: 55px;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.beautiful{
+margin-top: 55px;
+font-family: Aeonik;
+font-size: 30px;
+font-weight: 250;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+width: 22rem;
+margin-bottom: 40px;
+
+
+}
+
+.above-forbes{
+    font-family: Aeonik;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+
+.bloomberg{
+    font-family: Aeonik;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+   flex-direction: row;
+   word-spacing:30px ;
+   color: gray;
+}
+
+.hero-image{
+    background-image: url("images/unsplash_YAPZt8wxMO4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: 0;
+    
+    
+}
+
+.section-2{
+    margin-right: -420px;
+    
+}
+
+
+
+.light-gray{
+    background-color: #f8f8f8;
+    width: 50.3%;
+}
+
+.learn{
+    width: 500px;
+    font-family: Lora;
+font-size: 26px;
+font-weight: 750;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 300px;
+
+
+   
+}
+
+.each-houseplant{
+   width: 300px;
+    font-family: Aeonik;
+    font-size: 15px;
+    font-weight: 250;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 40px;
+    line-height: 20px;
+    
+}
+
+.flex-words{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.learn-more-text{
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.learn-more{
+    float: right;
+    margin-right: 640px;
+    padding-top: 40px;
+}
+
+.section-3{
+    padding-top: 60px;
+
+}
+.section-4{
+   background: linear-gradient(to bottom, white 30%, #EDEDED 70%);
+    height: 700px;
+    padding-top: 100px;
+
+}
+
+.img-with-grey-background{
+    margin-left: 54px;
+    width: 92%;
+    height: 75%;
+    
+    
+}
+
+.step-1{
+    padding: 30px;
+    font-family: Aeonik;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-align: left;
+
+}
+
+.we-put{
+    font-family: Lora;
+font-size: 26px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.arrows{
+    float: right;
+    margin-right: 15%;
+}
+
+.arrows i{
+    font-size: 48px;
+   
+}
+
+.section-5{
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+.below-section-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.see-all{
+    padding: 40px;
+    margin-top: 45px;
+    border: 15px;
+    color: white;
+    background-color: black;
+    padding: 12px 32px;
+    border-radius: 65px;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 120px;
+    
+}
+
+.img-container{
+   
+    padding-top: 40px;
+  
+}
+
+.image-marking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.image-marking-1 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.img img{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+.price-tag{
+   
+    font-family: Aeonik;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+
+.star-icon{
+    color: yellowgreen;
+    justify-content: space-evenly;
+}
+
+.five{
+    font-family: Aeonik;
+font-size: 15px;
+font-weight: 900;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.star-and-5{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.shop{
+    font-family: Aeonik;
+font-size: 15px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+.section-6{
+    margin-left: 30px;
+    padding-top: 100px;
+}
+
+.we-adore{
+    font-family: Lora;
+font-size: 26px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+
+}
+
+.section-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.flex-section-6-mid{
+    line-height: 30px;
+}
+
+.flex-images-2{
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.bench-flower{
+    width: 550px;
+}
+
+.hand-flower{
+    width: 755px;
+}
+
+.back-img{
+    background-image: url("images/Frame\ 36\ \(2\).jpg");
+    background-size: cover;
+    object-fit: cover;
+    height: 850.4527587890625px;
+    width: 1550.3180541992188px;
+    left: 2824px;
+    top: 1166px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 100px;
+   
+}
+
+.section-8{
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.get-inspired{
+    font-family: Lora;
+font-size: 34px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.check-it-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.shop{
+    font-family: Aeonik;
+font-size: 11px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.reviews{
+    font-family: Aeonik;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-align: left;
+
+}
+
+.lake{
+    font-family: Aeonik;
+font-size: 11px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.views{
+    font-family: Aeonik;
+font-size: 15px;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.if-you-use{
+    font-family: Aeonik;
+font-size: 15px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.leaf{
+    font-family: Aeonik;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.section-9{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stay{
+    font-family: Lora;
+font-size: 34px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.below-button{
+    width: 280px;
+    border: 1px light black;
+   
+}
+
+.subscribe{
+    margin-bottom: 10px;
+    border: 15px;
+    color: white;
+    background-color: black;
+    padding: 12px 32px;
+    border-radius: 65px;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 120px;
+}
+
+.above-hr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    padding-top: 20px;
+    font-family: Aeonik;
+font-size: 15px;
+font-weight: 250;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.mid-footer{
+    width: 380px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.left-footer{
+    display: flex;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @media (max-width: 800px) {
+    .below-section-5 {
+      flex-direction: column;
+      margin-right: 30px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .section-6 {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .flex-images-2 {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bench-flower {
+      padding-top: 30px;
+      height: 600px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .hand-flower {
+      padding-top: 20px;
+      height: 600px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .flex-words {
+      flex-direction: column;
+      margin-left: 30px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .learn {
+      margin-right: 30px;
+      width: 100%;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .each-houseplant{
+      width: 100%;
+      align-items: center;
+      padding-left: 0px;
+    align-items: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .hero-image{
+      background-image: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .section-2-left{
+      background-image: none;
+      margin-left: 0px;
+      
+      
+    }
+  }
+
+  @media (max-width: 500px) {
+    .top-nav{
+      flex-direction: column;
+      
+    }
+  }
+
+  @media (max-width: 500px) {
+    .logo{
+        padding-inline-start: 30%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .top-icons{
+        @media (max-width: 500px) {
+            .logo{
+                padding-inline-start: 30%;
+            }
+          }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar a {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+   
+       
+    .navbar.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
